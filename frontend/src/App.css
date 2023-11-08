@@ -1,0 +1,100 @@
+/* App container */
+.app-container {
+    font-family: Arial, sans-serif;
+    background-color: #746f6f;
+    min-height: 100vh;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .custom-class{
+    width: 400px;
+  }
+
+  .recommendations-container{
+    padding:20px;
+  }
+
+  .results-container{
+
+    padding:20px;
+
+  }
+  
+  /* Navigation bar */
+.navbar {
+    background-color: #232528;
+  }
+  
+.navbar a {
+    color: rgb(18, 9, 9);
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Main content container */
+.container {
+
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 500px;
+    
+   
+  }
+  
+  /* Webcam and image container */
+.webcam-container {
+    text-align: center;
+    border: 5px solid rgb(25,118,210);
+   
+    /* padding: 20px; */
+  }
+  
+.captured-image-container {
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  /* Capture button */
+.btn-primary {
+    background-color: #363f49;
+    color: rgb(183, 172, 198);
+    font-weight: bold;
+  }
+  
+.btn-primary:hover {
+    background-color: #0e141a;
+  }
+  
+  /* Responsive design */
+@media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .webcam-container, .captured-image-container {
+      padding: 10px;
+    }
+  }
+  .btn-detect{
+    padding: 20px;
+  }
+  
+  /* Center the text in the capture button */
+.btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Adjust margins for the capture button */
+.btn-primary {
+    margin-top: 20px;
+  }
+  
